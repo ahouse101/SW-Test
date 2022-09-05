@@ -1,5 +1,8 @@
-# Instructions for use
-To set up, run the db/bootstrap/create_sweetwater_test.sql and db/bootstrap/populate_ship_date.sql files through MySQL to create/populate the test table and parse out expected shipping dates.
+# Requirements
+All files at this repo should reside at the DocumentRoot of a PHP-enabled web server with MySQL installed (with a database created called 'sw', and a user called 'sample' with password 'password' that has access to this database).
+
+# Setup
+To set up, run the db/bootstrap/create_sweetwater_test.sql and db/bootstrap/populate_ship_date.sql files through MySQL to create/populate the test table and parse out expected shipping dates. Assuming the server is running, you should be able to navigate to localhost to see the report of comments by type.
 
 
 
